@@ -1,7 +1,5 @@
 # Installation
 
-![](https://github.com/ayushsubedi/vaccine_progress_bot/blob/main/display.png)
-
 #### Clone the repository
 
 `https://github.com/ayushsubedi/vaccine_progress_bot/`
