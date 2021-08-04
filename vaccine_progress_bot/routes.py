@@ -5,15 +5,15 @@ from vaccine_progress_bot.helpers import progress_bar
 from flask import render_template
 import pandas as pd
 
-SOURCE = 'https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/country_data/Nepal.csv?raw=True'
+SOURCE = 'https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/country_data/Bhutan.csv?raw=True'
 
-# https://www.macrotrends.net/countries/NPL/nepal/population-growth-rate
-POPULATION = 29674920.0
+# https://www.macrotrends.net/countries/BTN/bhutan/population
+POPULATION = 779898
 
 
 @application.route('/')
 def hello():
-    return ('future home of vaccine bot nepal')
+    return ('future home of vaccine bot bhutan')
 
 
 @application.route('/get_data')
